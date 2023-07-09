@@ -44,8 +44,8 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = None
-CITATION_URL: Optional[str] = "http://doi.org/10.3390/agronomy12020356"
+PAPER: Optional[str] = "http://doi.org/10.3390/agronomy12020356"
+CITATION_URL: Optional[str] = "https://zenodo.org/record/5596799/export/hx"
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 TAGS: List[str] = None
