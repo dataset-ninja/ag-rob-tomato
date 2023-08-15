@@ -15,12 +15,14 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "AgRobTomato"
 PROJECT_NAME_FULL: str = "AgRobTomato Dataset: Greenhouse Tomatoes With Different Ripeness Stages"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
+
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agriculture()]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
@@ -95,6 +97,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,

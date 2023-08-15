@@ -16,4 +16,4 @@ If you make use of the AgRobTomato data, please cite the following reference:
 }
 ```
 
-[🔗 Source](http://doi.org/10.3390/agronomy12020356)
+[Source](http://doi.org/10.3390/agronomy12020356)

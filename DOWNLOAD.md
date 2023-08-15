@@ -1,6 +1,6 @@
-Dataset **AgRobTomato** can be downloaded in Supervisely format:
+Dataset **AgRobTomato** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/t/C/FM/p6Y1aIy2EX2l0YCUSGVoCf2GGIpMvmYnngRl1KqLC3DlKFkXop9kcaH9Xte7cgapWPlT7R9EohCwEflMlTANyIh7sR9Hxj9gVOnV0dOVv2szgfpNoBpPyOSdZYUQ.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/w/u/Ff/mTG5ixOKY9uLNDrDcomHIts8RDRu39he2H9Jr5s2PZnT6pfIkZ1QuqDdmHPD13rXDCpojSKrvlMQp12yQtqgBfmJhrZPuRy0FfQtZhQUanJJmHo7qezIyJIegJRf.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='AgRobTomato', dst_path='~/dtools/datasets/AgRobTomato.tar')
+dtools.download(dataset='AgRobTomato', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://zenodo.org/record/5596799/files/Dataset-Greenhouse_Tomato_AgRob.zip?download=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://zenodo.org/record/5596799/files/Dataset-Greenhouse_Tomato_AgRob.zip?download=1).
