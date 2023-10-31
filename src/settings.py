@@ -17,7 +17,6 @@ PROJECT_NAME: str = "AgRobTomato"
 PROJECT_NAME_FULL: str = "AgRobTomato Dataset: Greenhouse Tomatoes With Different Ripeness Stages"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
-
 ##################################
 # * After uploading to instance ##
 ##################################
@@ -65,7 +64,8 @@ AUTHORS: Optional[List[str]] = [
     "dos Santos, Filipe Neves",
     "Cunha, Mário",
 ]
-
+AUTHORS_CONTACTS: Optional[List[str]] = ["mccunha@fc.up.pt"]
+    
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "University of Porto, Portugal",
     "Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência (INESC TEC), Portugal",
@@ -118,6 +118,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
