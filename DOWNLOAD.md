@@ -1,6 +1,6 @@
-Dataset **AgRobTomato** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
+Dataset **AgRobTomato Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/l/8/UQ/gcWzb9d1Z32lxp30PfVTuwyxetJsEvQ9CcClvlNndofQUvS5PqhbO22RNM7INlFCba13cESh4KbgHL4L7V5ZmksW43xtd2SQyGEEk51y77JeE0jAcLbI52CSvUuX.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/W/n/6p/f2CU23MaAITpdNvL7ygd6klxs3DzEP4m8wqBSK6oyt7vuEhNKz663LO3A4JdponnOAJNZPovxWfONcanxjZxj3TBcoAkpT626AUKjIX2E691uEca25GjKn6Wz7zS.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,7 +11,7 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='AgRobTomato', dst_dir='~/dataset-ninja/')
+dtools.download(dataset='AgRobTomato Dataset', dst_dir='~/dataset-ninja/')
 ```
 Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
 
