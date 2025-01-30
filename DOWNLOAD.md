@@ -1,6 +1,6 @@
 Dataset **AgRobTomato Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/seh1lpzncz7l6ie3ndje6/agrobtomato-dataset-DatasetNinja.tar?rlkey=ibwil1cm0zdiyumi3wbbgwzx7&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEzMzhfQWdSb2JUb21hdG8gRGF0YXNldC9hZ3JvYnRvbWF0by1kYXRhc2V0LURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIkd0Z1E4alZvTU5hZHBieUlHamRqSmpCcEY1bDBPcHNyYVVORjIzL01aeDQ9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
